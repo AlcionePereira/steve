@@ -1,0 +1,34 @@
+body {
+    background-image: url(2steven.jpeg);
+    background-repeat: no-repeat;    
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  h1 {
+    
+    font-size: 1.8rem;
+
+  }
+  div{
+      padding: 50px 40px 40px 40px;
+      background-color: rgb(233, 219, 219);
+      border: 1px solid black;
+      border-radius: 20px 0px;
+  }
+    input{
+        font-size: 1.4rem;
+        color: chocolate;
+        margin-bottom: 1rem;
+
+    }
+  #btn_cadastrar{
+    background-color:aqua;
+    box-shadow: 1px 1px ;
+  }
+  #btn_cadastrar:focus{
+           background-color: brown;
+  }
+
+  
